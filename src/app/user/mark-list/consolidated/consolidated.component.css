@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.table, .mark{
+    width: 50%;
+}
+.mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

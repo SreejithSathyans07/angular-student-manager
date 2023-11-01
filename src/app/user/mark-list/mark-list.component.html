@@ -1,0 +1,9 @@
+<div class="container">
+    <ul>
+        <li [routerLink]="['consolidated']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">consolidated</li>
+        <li [routerLink]="['individual']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">semester wise</li>
+    </ul>
+    <hr>
+    <router-outlet></router-outlet>
+</div>
+

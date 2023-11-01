@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    padding: 0;
+}
+li{
+    margin-right: 10px; 
+    font-size: 20px;
+    cursor: pointer;
+    transform: scale(0.80);
+}
+.active{
+    color: #3498DB;
+    transform: scale(1.05);
+}
+.menu{
+    display: flex;
+}

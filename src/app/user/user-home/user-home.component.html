@@ -1,0 +1,18 @@
+<div class="container">
+    <h1>Welcome, John</h1>
+    <hr>
+    <div class="details-tile">
+        <app-tile class="tile-item" *ngFor="let item of data" [studentData]="item"></app-tile>
+    </div>
+    <div class="sub-section">
+        <h3>Student center</h3>
+        <a [routerLink]="['/admission', 20]">Manage Admission (route params)</a>
+        <a (click)="navigateToAdmission()">Manage Admission (query params)</a>
+        <a>Apply leave</a>
+        <a href="">Project submission</a>
+        <a href="">Online certifications</a>
+        <a href="">Sports</a>
+        <a href="">Library membership</a>
+        <a href="">Grace marks</a>
+    </div>
+</div>

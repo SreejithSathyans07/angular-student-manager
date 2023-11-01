@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+}
+.side-bar{
+    background-color: white;
+    height: 100vh;
+    width: 15%;
+    margin-right: 10px;
+}
+.main-content{
+    width: 85%;
+}
+
+.full-width{
+    width: 100%;
+}

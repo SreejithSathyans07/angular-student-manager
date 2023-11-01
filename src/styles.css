@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Dosis&family=Jost:wght@100&family=Roboto:wght@100;300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.btn-submit{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    cursor: pointer;
+}
+
+.form-control-text{
+    border: none;
+    border-bottom: 1px solid #EAEDED;
+    outline: none;
+}

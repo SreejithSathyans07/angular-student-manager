@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="login-box">
+        <div class="login-text">
+            <p>Login</p>
+            <div class="bottom-line"></div>
+        </div>
+        <div class="login-form">
+            <div class="user-name form-control">
+                <label class="form-control-label" for="">User name</label>
+                <input
+                [(ngModel)]="username"
+                 placeholder="username" class="form-control-text" type="text" name="user-name"
+                    id="user-name">
+            </div>
+            <div class="user-password form-control">
+                <label class="form-control-label" for="">Password </label>
+                <input
+                [(ngModel)]="password" placeholder="password" class="form-control-text" type="password" name="password"
+                    id="use-password">
+            </div>
+        </div>
+        <div class="login-button-section">
+            <button (click)="login()" class="btn-submit">Login</button>
+        </div>
+
+    </div>
+</div>

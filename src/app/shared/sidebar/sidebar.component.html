@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="main-section">
+        <ul>
+            <li [routerLink]="['/user-home']" routerLinkActive="active"><i class="fa-solid fa-house"></i>Home</li>
+            <li [routerLink]="['/profile']" routerLinkActive="active"><i class="fa-solid fa-user"></i>Profile</li>
+            <li [routerLink]="['/mark-list']" routerLinkActive="active"><i class="fa-solid fa-graduation-cap"></i>Mark list</li>
+            <li [routerLink]="['/admission']" routerLinkActive="active"><i class="fa-solid fa-school"></i>Admissions</li>
+            
+            <!-- <li [routerLink]="['/user-home']" routerLinkActive="active"><i class="fa-solid fa-house"></i>Home</li>
+            <li [routerLink]="['/profile']" routerLinkActive="active"><i class="fa-solid fa-user"></i>Profile</li>
+            <li [routerLink]="['/mark-list']" routerLinkActive="active"><i class="fa-solid fa-graduation-cap"></i>Mark list</li>
+            <li [routerLink]="['/admission']" routerLinkActive="active"><i class="fa-solid fa-school"></i>Admissions</li> -->
+        </ul>
+    </div>
+    <div class="log-out">
+        <ul>
+            <li (click)="logout()"><i class="fa-solid fa-right-from-bracket" ></i>Log out</li>
+        </ul>
+    </div>
+
+</div>
